@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styled from "styled-components";
+import styled, {ThemeContext} from 'styled-components'
 import searchIcon from '../assets/image/menu-search.png'
 import userIcon from '../assets/image/user.png'
 import { useNavigate } from 'react-router-dom';
